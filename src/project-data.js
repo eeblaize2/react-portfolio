@@ -1,7 +1,9 @@
+import password from "./images/password-generator.PNG"
+
 const projects= [
     {
         name: 'Password Generator',
-        img: '/password-generator.PNG',
+        img: password,
         tools: ['HTML', 'CSS', 'Javascript'],
         link: 'https://eeblaize2.github.io/password-generator/',
  
