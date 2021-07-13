@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+header{
+  display: flex;
+  justify-content: space-between;
+  background-color: darkgoldenrod;
+  padding: 20px 100px;
+  align-items: center;
+  height: 50px;
+}
+.App{
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: paleturquoise;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.About{
+  display: flex;
+  align-items: center;
+  
+  padding: 20px;
 }
+.About >img{
+  width: 200px;
+  margin-right: 20px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
+.About-Details >h2{
+  font-size: 50px;
+}
+.project-card >img{
+  width: 100%;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+}
+.project-card{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border: 2px solid orange;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
 }
-
-.App-link {
-  color: #61dafb;
+.portfolio{
+  display: flex;
+  flex-wrap: wrap;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+nav >a{
+  text-decoration: none;
+  font-size: 22px;
+  margin-right: 15px;
+  color: black;
+}
+footer{
+  background-color: paleturquoise;
+  width: 100%;
+  text-align: center;
+  height: 25px;
+  position: absolute;
+  bottom: 0;
+}
+.classContainer{
+  width: 100%;
+  min-height: 100vh;
+  background-color: paleturquoise;
+  position: relative;
 }
